@@ -9,14 +9,13 @@ This project is a Zenoss extension (ZenPack) that allows for monitoring of
 Citrix XEN Servers via commands sent over ssh. The plugin is derived from 
 ZenPack.zenoss.XenMonitor_ and depends on ZenPack.zenoss.ZenossVirtualHostMonitor_::
 
-
-.. _ZenPack.zenoss.XenMonitor: http://community.zenoss.org/docs/DOC-5803
-      .. _ZenPack.zenoss.ZenossVirtualHostMonitor: http://community.zenoss.org/docs/DOC-5802
+    .. _ZenPack.zenoss.XenMonitor: http://community.zenoss.org/docs/DOC-5803
+    .. _ZenPack.zenoss.ZenossVirtualHostMonitor: http://community.zenoss.org/docs/DOC-5802
 
 Disclaimer
 -----------------------------------------------------------------------------
 
-This is a "it worked on my machine" zenpack and, if you use it, you use it at
+This is an "it worked on my machine" zenpack and, if you use it, you use it at
 your own peril. If you can try it in a development environment first I 
 strongly advise it.
 
@@ -47,10 +46,12 @@ Installation
 There isn't any ``.egg`` file yet. To install it you will need to use the 
 developer installation method. Do the following as the zenoss user:
 
-    cd /your/working/directory/of/choice
-    git clone git://github.com/alexandrud/ZenPacks.community.CitrixMonitor.git
-    zenpack --link --install ZenPacks.community.CitrixMonitor
-    zopectl restart
+    .. code:: bash
+
+        cd /your/working/directory/of/choice
+        git clone git://github.com/alexandrud/ZenPacks.community.CitrixMonitor.git
+        zenpack --link --install ZenPacks.community.CitrixMonitor
+        zopectl restart
 
 Configuration
 -------------------------------------------------------------------------------
