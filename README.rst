@@ -7,10 +7,12 @@ About
 =============================================================================
 This project is a Zenoss extension (ZenPack) that allows for monitoring of
 Citrix XEN Servers via commands sent over ssh. The plugin is derived from 
-`ZenPack.zenoss.XenMonitor`_ and depends on `ZenPack.zenoss.ZenossVirtualHostMonitor`_::
+`XenMonitor zenpack`_ and depends on `ZenossVirtualHostMonitor zenpack`_ ::
 
-.. _ZenPack.zenoss.XenMonitor: http://community.zenoss.org/docs/DOC-5803
-.. _ZenPack.zenoss.ZenossVirtualHostMonitor: http://community.zenoss.org/docs/DOC-5802
+.. _XenMonitor zenpack: http://community.zenoss.org/docs/DOC-5803
+.. _ZenossVirtualHostMonitor zenpack: http://community.zenoss.org/docs/DOC-5802
+
+
 
 Disclaimer
 -----------------------------------------------------------------------------
