@@ -10,7 +10,7 @@ Citrix XEN Servers via commands sent over ssh. The plugin is derived from
 ZenPack.zenoss.XenMonitor_ and depends on ZenPack.zenoss.ZenossVirtualHostMonitor_::
 
     .. _ZenPack.zenoss.XenMonitor: http://community.zenoss.org/docs/DOC-5803
-    .. _ZenPack.zenoss.ZenossVirtualHostMonitor: http://community.zenoss.org/docs/DOC-5802
+        .. _ZenPack.zenoss.ZenossVirtualHostMonitor: http://community.zenoss.org/docs/DOC-5802
 
 Disclaimer
 -----------------------------------------------------------------------------
